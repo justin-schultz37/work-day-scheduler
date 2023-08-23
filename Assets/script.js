@@ -8,13 +8,22 @@ $(document).ready(function () {
     $('#currentDay').text(currentDate.format('dddd, MMMM, DD'));
     console.log(currentDate);
 
-    var saveButton = document.getElementsByClassName('saveBtn');
     $(".saveBtn").on("click", function () {
         var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
+        console.log('Show this if saveBtn is working');
 
+        // Confirmed this is storing the text and time locally
         localStorage.setItem(time, text);
-    });
+    })
+
+    // This functions checks for the current hour
+    function currentTime() {
+        var localTime = dayjs().hour();
+        console.log('Is this displaying the current hour: ' + localTime);
+    }
+
+    currentTime();
 
     // TODO: Add a listener for click events on the save button. This code should
     // use the id in the containing time-block as a key to save the user input in
