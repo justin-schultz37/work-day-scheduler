@@ -1,6 +1,6 @@
 #Random Password Generator
 
-URL:
+URL: https://justin-schultz37.github.io/work-day-scheduler/
 
 ##Description
 This application enables user to create and store tasks with color indicators that signal if the time slot is in the past, present, or future.
