@@ -8,7 +8,7 @@ This application enables user to create and store tasks with color indicators th
 
 ##Installation N/A
 
-##Usage This application was built to offer the user the ability to generate a random password, while giving the ability to create this password by offer 4 preferences. These preferences are to include special characters, Uppercase, Lowercase, and numbers.
+##Usage This application allows for users to schedule work tasks into a color coded calendar.
 
 ##Credits
 https://stackoverflow.com/questions/76111963/set-hour-to-timeblock-element-using-dayjs-hour#:~:text=dayjs()%20creates%20a%20new,hour%20value%20of%20the%20object. - used to create function currentTime
