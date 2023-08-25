@@ -34,7 +34,7 @@ $(document).ready(function () {
             }
         })
     }
-
+    // Stores user text and the hour to the locaal storage that corresponds with the hr# id
     $("#hr9 .description").val(localStorage.getItem("hr9"));
     $("#hr10 .description").val(localStorage.getItem("hr10"));
     $("#hr11 .description").val(localStorage.getItem("hr11"));
